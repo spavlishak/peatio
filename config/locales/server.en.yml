@@ -1475,7 +1475,11 @@ en:
   'true': true
   'false': false
   view_on_github: View on Github
-  slogan: An open-source crypto-currency exchange for world.
+  slogan:
+    heading: Peatio [貔貅] Open-Source Exchange
+    subheading: Cloud deployment made simple and secure
+    text1: Peatio - Cryptocurrency exchange for managing digital currency.
+    text2: We provide Peatio installation and configuration services
   tags:
     vip: VIP
     hero: Hero Member
@@ -1523,7 +1527,7 @@ en:
     signup: Sign Up
     login_via_weibo: Login via Weibo
     funds: Funds
-    getstart: Get Start
+    getstart: Markets
     assets: Solvency
     history: History
     order_history: Order History
