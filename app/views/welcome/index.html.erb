@@ -1,7 +1,7 @@
 <div class="container">
   <div class="logo">
     <a href="https://peatio.tech" target="blank">
-      <img src="<%= image_path 'logo.png' %>" width="500px" />
+      <img src="<%= image_path 'logo.svg' %>" width="500px" />
     </a>
   </div>
 
@@ -23,7 +23,6 @@
     <% else %>
       <div class="col-xs-6 col-xs-offset-9 text-center">
         <a class="btn btn-primary btn-lg btn-block" href="<%= market_path(current_market) %>" role="button"><%= t("header.getstart") %></a>
-        <a class="btn btn-primary btn-lg btn-block" href="<%= funds_path %>" role="button"><%= t("header.funds") %></a>
         <a class="btn btn-primary btn-lg btn-block" href="<%= settings_path %>" role="button"><%= t("header.settings") %></a>
       </div>
     <% end %>

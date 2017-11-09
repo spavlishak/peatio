@@ -1021,11 +1021,10 @@ en:
         title: Login my account
         intro: Login Peatio now for you to exchange.
     identities:
-      panel: Create Account
+      panel: DEMO.Peatio.tech
       new:
-        title: Create My Account
-        intro: This will be your only ID on Peatio which is necessary for your exchange
-          , deposit and withdrawal . please fill it out carefully.
+        title: Create Account
+        intro: Register for you demo account or login using demo login information provided by your Peatio.tech Project Manager.
       edit:
         panel: My Account
         title: Reset Password
@@ -1476,7 +1475,7 @@ en:
   'false': false
   view_on_github: View on Github
   slogan:
-    heading: Peatio [貔貅] Open-Source Exchange
+    heading: Peatio Open-Source Exchange
     subheading: Cloud deployment made simple and secure
     text1: Peatio - Cryptocurrency exchange for managing digital currency.
     text2: We provide Peatio installation and configuration services
