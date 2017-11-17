@@ -129,8 +129,8 @@ class ApplicationController < ActionController::Base
     }
 
     gon.clipboard = {
-      :click => I18n.t('actions.clipboard.click'),
-      :done => I18n.t('actions.clipboard.done')
+      click: I18n.t('actions.clipboard.click'),
+      done: I18n.t('actions.clipboard.done')
     }
 
     gon.i18n = {
@@ -202,7 +202,7 @@ class ApplicationController < ActionController::Base
     end
 
     if current_user
-      gon.current_user = { sn: current_user.sn }
+      gon.currentUser = { sn: current_user.sn }
       gon.accounts = current_user.accounts.inject({}) do |memo, account|
         memo[account.currency] = {
           currency: account.currency,

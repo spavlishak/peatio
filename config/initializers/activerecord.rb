@@ -5,3 +5,4 @@ module ActiveModel
 end
 
 ActiveRecord::Base.extend ActiveHash::Associations::ActiveRecordExtensions
+ActsAsTaggableOn.force_binary_collation = true

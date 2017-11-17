@@ -11,7 +11,7 @@ defaults: &defaults
   URL_SCHEMA: http
 
   # session expire time (seconds)
-  SESSION_EXPIRE: 60
+  SESSION_EXPIRE: "60"
 
   # email notifications settings (only for production)
   SMTP_PORT: YOUR_SMTP_PORT
@@ -28,22 +28,22 @@ defaults: &defaults
   OPERATE_MAIL_TO: support@peatio.tech
 
   # WebSocket Streaming API settings
-  WEBSOCKET_HOST: 0.0.0.0
-  WEBSOCKET_PORT: 8080
+  WEBSOCKET_HOST: "0.0.0.0"
+  WEBSOCKET_PORT: "8080"
 
   # Uncomment following lines to enable secure WebSocket (wss)
   # WEBSOCKET_SSL_KEY: 'your_server.key'
   # WEBSOCKET_SSL_CERT: 'your_server.crt'
 
   # pusher settings
-  PUSHER_APP: 65910
-  PUSHER_KEY: 50d404c35db92d736a57
-  PUSHER_SECRET: 75d6e6685209cc60cc4d
+  PUSHER_APP: "65910"
+  PUSHER_KEY: "50d404c35db92d736a57"
+  PUSHER_SECRET: "75d6e6685209cc60cc4d"
   PUSHER_HOST: api.pusherapp.com
-  PUSHER_PORT: 80
-  PUSHER_WS_PORT: 80
-  PUSHER_WSS_PORT: 443
-  PUSHER_ENCRYPTED: true
+  PUSHER_PORT: "80"
+  PUSHER_WS_PORT: "80"
+  PUSHER_WSS_PORT: "443"
+  PUSHER_ENCRYPTED: "true"
 
   # twilio setting (https://github.com/twilio/twilio-ruby)
   TWILIO_NUMBER: YOUR_TWILIO_NUMBER

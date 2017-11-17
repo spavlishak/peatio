@@ -10,7 +10,7 @@
 $ ->
   window.pusher_subscriber = new PusherSubscriber()
 
-Member.initData         [gon.current_user]
+Member.initData         [gon.currentUser]
 DepositChannel.initData  gon.deposit_channels
 WithdrawChannel.initData gon.withdraw_channels
 Deposit.initData         gon.deposits

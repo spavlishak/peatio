@@ -1,6 +1,6 @@
 module AASM::Locking
-  def aasm_write_state(state)
+  def aasm_write_state(state, name = :default)
     lock!
-    super(state)
+    super(state, name)
   end
 end

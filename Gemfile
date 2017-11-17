@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.0.13'
+gem 'rails', '~> 4.1.16'
 gem 'rails-i18n'
 
-gem 'mysql2', '~> 0.3.21'
+gem 'mysql2'
 gem 'daemons-rails'
 gem 'redis-rails'
 
@@ -19,13 +19,13 @@ gem 'omniauth-identity', '~> 1.1.1'
 gem 'figaro'
 gem 'hashie'
 
-gem 'aasm', '~> 3.4.0'
+gem 'aasm', '~> 4.12.3'
 gem 'amqp', '~> 1.3.0'
 gem 'bunny', '~> 1.2.1'
 gem 'cancancan'
 gem 'enumerize'
 gem 'datagrid'
-gem 'acts-as-taggable-on'
+gem 'acts-as-taggable-on', '~> 5.0.0'
 gem 'kaminari'
 gem 'paranoid2'
 gem 'active_hash'
